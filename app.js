@@ -39,7 +39,7 @@ app.post('/contect', (req, res) => {
     // res.render('content');
     
 })
-
-app.listen(80, () => {
-    console.log(`server listen on port http://localhost:${80}`);
+app.set("port", 3000);
+app.listen(3000, () => {
+    console.log(`server listen on port http://localhost:${3000}`);
 })
