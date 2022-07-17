@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #020202;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+    display: flex;
+    
+}
+#navbar div{
+    display: inline;
+}
+#navbar div img{
+    display: inline;
+    /* width: 50px; */
+    height: 50px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin:0px 500px;
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 25px;
+}
+#navbar li a:hover{
+    color: rgb(58, 13, 241);  
+}
+input[type="search"]
+{
+    display: inline;
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    margin: 0px 10px;
+    
+    position: absolute;
+    right: 60px;
+    top:10px;
+
+    padding: 4px 3px;
+
+    /* margin: 10px 10px; */
+}
+.btn{
+    display: inline;
+    border-radius: 7px;
+    padding: 4px 3px;
+    top:10px;
+    position:absolute;
+    right: 10px;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("https://yesofcorsa.com/wp-content/uploads/2017/02/4K-Road-Wallpaper-Free.jpg") ;
+    
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorsSection{
+    background-image: url("https://th.bing.com/th/id/OIP.y3g_EV-I-cZwz5EpE18wRAHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 300px;
+    background-color: #302a2ac7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cla{
+    
+    display: inline-block;
+    height: 225px;
+    width: 400px;
+    margin: 12px 50px;
+    border: 3px solid black;
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+    align-items: center;
+    /* background-image: url("https://th.bing.com/th/id/OIP.k78a_J8yD9tgypoiFkrMzQHaE5?pid=ImgDet&rs=1"); */
+    opacity: .6;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-box1
+{
+    display: flex;
+    align-items: center;
+}
+.card-img1 {
+    height: 131px;
+    margin: 5px 9px;
+    padding: 0px 12px;
+
+
+}
+.card-box1 img{
+    height: inherit;
+}
+.card-content
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
+}
+.card-content1
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
+}
+.card-box2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img2
+{
+    height: 131px;
+    margin: 5px 9px;
+    padding: 0px 12px;
+}
+.card-img2 img{
+    height: inherit;
+}
+.cla h3
+{
+    color: black;
+    
+    font-size: 30px;
+    margin: 20px 30px;
+    text-decoration-line: underline;
+}
+.card-content2
+{
+    list-style: none;;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
+}
+#sponsorsSection h2{
+    font-size: 30px;
+    padding: 20px;
+    text-align:center;
+}
+#footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pic{
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    margin-top: 30px;
+    outline: none;
+    
+}
+.pic img{
+    height: inherit;
+    top: 20px;
+}
+.con h1,h3 {
+    color: white;
+}
+
+.con
+{
+    margin: 100px;
+    margin-top: 30px;
+}

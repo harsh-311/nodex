@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    include ../index.js
+block style
+    style 
+      include ../style.css
+block content
+    nav#navbar
+      div
+        img(src="https://4.bp.blogspot.com/-NrdO50GmrRI/UTb7slDfy5I/AAAAAAAAC5U/2yVIRYAEKcA/s1600/Audi-Logo5.jpg", alt="") 
+      ul 
+        li #[a(href='/') Home]
+        li #[a(href='/') About] 
+        li #[a(href='/contect') Content Us] 
+      input(type="search", name="search" placeholder="Search")
+      button(type="submit" ) submit 
+    section#introSection
+      div|Our Main Web...
+      div.small| Health Is Good.
+    section#sponsorsSection
+      div.cla 
+        h3 FACEBOOK.PNG
+        div.card-box
+          div.card-img
+           img(src="https://th.bing.com/th/id/R.3b9ffc3b03aa9a34c5d31a19033e592e?rik=pn%2fUBLqPfneGXg&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2011%2f07%2fblack-and-white-facebook-logo-icon_366551.png&ehk=%2f4LRd1XigxnNVhVfW4V7L6uw7lFAp1J5tGBQisu1cdU%3d&risl=&pid=ImgRaw&r=0", alt="This load again")
+          div.card-content
+            | This Is Facebook Picture.
+            br
+            | FB Owener By Harsh Patel..
+      div.cla 
+        h3|ANIMAL.PNG
+        .card-box1 
+          .card-img1 
+            img(src="https://clipground.com/images/instagram-logo-png-transparent-6.jpg", alt="This pic should be load again")
+          .card-content1 
+            | This Is About Animal..
+      div.cla 
+        h3|TWITTER.PNG
+          .card-box2 
+            .card-img2 
+              img(src="https://www.pngkey.com/png/detail/84-842567_twitter-logo-black-and-white-png-twitter-logo.png", alt="")  
+            .card-content2 
+              | This is Twitter Logo.
+              br
+              //- |Some Few Days Before Alonmusk Buy Twitter but Some Resoan It's Not..
+    footer#footer
+      .pic 
+        img(src="https://static.vecteezy.com/system/resources/previews/000/582/035/original/copyright-symbol-icon-vector-illustration.jpg", alt="")
+      .con
+        h1 This Is Copyright Issu
+        h3 Harsh © harshacadamy.com Copiright...

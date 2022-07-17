@@ -1,0 +1,18 @@
+extends base.pug
+block scripts
+    script(src='../index.js')
+block style
+    style 
+        include ../style.css
+block style
+    style 
+        include ../style1.css
+block content
+    form(action="/contect", method="post" class="dsd")
+        input(type="text" name="name" id="name" placeholder="Fill your Name")
+        input(type="email" name="email" id="email" placeholder="Enter Your Email Address")
+        input(type="text" name="Address" id="Address" placeholder="Enter Your Address")
+        input(type="number"  name="number" id="number" placeholder="Enter Your Moilenumber")
+        button(type="submit" class="btn1" ) enter      
+    
+
