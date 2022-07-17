@@ -2,6 +2,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 app.use('/static', express.static('static'));
+var bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 app.use(express.urlencoded())
 app.set('view engine', 'pug');
