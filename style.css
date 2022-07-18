@@ -11,6 +11,7 @@
     font-family: 'Yeon Sung' ;
     padding: 13px, 14px;
     display: flex;
+    width:100vw;
     
 }
 #navbar div{
@@ -75,9 +76,9 @@ input[type="search"]
     font-size: 65px;
     align-items: center;
     background: center/cover no-repeat url("https://yesofcorsa.com/wp-content/uploads/2017/02/4K-Road-Wallpaper-Free.jpg") ;
-    
+    width: 100vw;
     height: 425px;
-    background-color: red;
+    background-color: #fff;
 }
 #introSection div.small{
     font-size: 52px;
