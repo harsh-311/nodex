@@ -35,8 +35,8 @@ app.post('/contect', (req, res) => {
 
     res.end("our data is store in database")
 })
-// app.set("port", 3000);
-// app.listen(3000, () => {
-//     console.log(`server listen on port http://localhost:${3000}`);
-// })
-app.listen((process.env.PORT || 5000));
+app.set("port", 3000);
+app.listen(3000, () => {
+    console.log(`server listen on port http://localhost:${3000}`);
+})
+// app.listen((process.env.PORT || 5000));
