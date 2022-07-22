@@ -1,219 +1,317 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=ZCOOL+QingKe+HuangYou&display=swap');
 *{
-
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
 }
-#navbar{
-    background-color: #020202;
-    font-family: 'Yeon Sung' ;
-    padding: 13px, 14px;
-    display: flex;
-    width:100vw;
-    
+header{
+   height: 100vh;
+   width: 100vw;
+   background-image: url("https://i.postimg.cc/YqFd6KWs/1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+
 }
-#navbar div{
-    display: inline;
+.head{
+    color: whitesmoke;
+    margin-bottom: 60px;
+    text-align: center;
 }
-#navbar div img{
-    display: inline;
-    /* width: 50px; */
-    height: 50px;
-}
-#navbar ul{
-    display: flex;
-    flex-direction: row;
-     justify-content: center;
-    align-items: center;
-    padding: 12px;
-    margin:0px 500px;
-}
-#navbar li{
-    list-style: none;
-    
-}
-#navbar li a{ 
-   text-decoration: none;
-    padding: 13px 20px;
-    color: white;
-    font-size: 5vw;
-}
-#navbar li a:hover{
-    color: rgb(58, 13, 241);  
-}
-input[type="search"]
+.line
 {
-    display: inline;
-    border: 2px solid;
-    background-color: antiquewhite;
-    border-radius: 7px;
-    margin: 0px 10px;
-    
-    position: absolute;
-    right: 60px;
-    top:10px;
-
-    padding: 4px 3px;
-
-    /* margin: 10px 10px; */
+    background-color: azure;
+    width: 50px;
+    height: 4px;
+    margin: 6px auto;
+}
+.head  h1{
+    font-size: 4vmin;
+}
+.head h2{
+    font-size: 7vmin;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .btn{
-    display: inline;
-    border-radius: 7px;
-    padding: 4px 3px;
-    top:10px;
-    position:absolute;
-    right: 10px;
+    margin-top: 8px;
+    width: 106px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: chocolate;
+    color: whitesmoke;
 }
-#introSection{
-    color: white;
+.navbar{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    display: flex;
+    width:100% ;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+
+}
+.navlinks li{
+    margin:0px 30px;
+    position: relative;
+}
+.navbar .navlinks li::after{
+    content: "";
+    width: 0%;
+    background:white;
+    height: 3px;
+    left: 0px;
+    bottom: -10px;
+    position: absolute;
+    transition: .5s;
+}
+.navbar .navlinks li:hover::after
+{
+    width: 100%;;
+}
+.navlinks li a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right:20px;
+    width:40px;
+    cursor: pointer;
+    display: none;
+   
+}
+section
+{
+    width:100%;
+    overflow: hidden;
+    margin: 40px auto;
+}
+.event h1{
+    text-align: center;
+    font-size: 7vmin;
+}
+.line
+{
+    background-color:black;
+    width: 50px;
+    height: 4px;
+    margin: 6px auto;
+}
+.row{
+    width: 80%;
+    display: flex;
+    margin: 30px auto;
+}
+.ctn
+{
+    margin-top: 8px;
+    width: 91px;
+    height: 32px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: chocolate;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 4px 5px;
+  
+}
+.col{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 65px;
     align-items: center;
-    background: center/cover no-repeat url("https://yesofcorsa.com/wp-content/uploads/2017/02/4K-Road-Wallpaper-Free.jpg") ;
-    width: 100vw;
-    height: 425px;
-    background-color: #fff;
+    
 }
-#introSection div.small{
-    font-size: 52px;
-    padding: 5px;
+.col img{
+    width: 300px;
+    margin: 27px;
 }
-#sponsorsSection{
-    background-image: url("https://th.bing.com/th/id/OIP.y3g_EV-I-cZwz5EpE18wRAHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+.col h3{
+    font-size: 4vmin;
+}
+.col p{
+    margin: 20px 57px;
+    font-size: 1vim;
+    text-align: center;
+}
+h1{
+    font-size: 7vmin;
+    color: whitesmoke;
+}
+.sec2{
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),  url('https://images.unsplash.com/photo-1512987327732-2137313d6977?ixlib=rb-0.3.5&s=2d41870574189e8833f7acb70ee6ab65&auto=format&fit=crop&w=750&q=60');
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    height: 300px;
-    background-color: #302a2ac7;
+    width: 100%;
+z-index: -5;
+overflow: hidden;
+}
+.cont{
+    margin-top: 75px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
 }
-.cla{
-    
-    display: inline-block;
-    height: 225px;
-    width: 400px;
-    margin: 12px 14px;
-    border: 3px solid black;
-    /* background-color: aquamarine; */
-    border-radius: 20px;
-    align-items: center;
-    /* background-image: url("https://th.bing.com/th/id/OIP.k78a_J8yD9tgypoiFkrMzQHaE5?pid=ImgDet&rs=1"); */
-    opacity: .6;
-    background-color: rgb(255, 255, 255);
-    
-    
-
-
-}
-.card-box{
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-}
-.card-img{
-    height: 131px;
-    padding: 0 14px;
-    margin: 5px 9px;
-}
-.card-img img{
-    height: inherit; 
-}
-.card-box1
-{
-    display: flex;
-    align-items: center;
-}
-.card-img1 {
-    height: 131px;
-    margin: 5px 9px;
-    padding: 0px 12px;
-
-
-}
-.card-box1 img{
-    height: inherit;
-}
-.card-content
-{
-    font-weight: bold;
-    font-size: 20px;
-    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
-}
-.card-content1
-{
-    font-weight: bold;
-    font-size: 20px;
-    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
-}
-.card-box2
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.card-img2
-{
-    height: 131px;
-    margin: 5px 9px;
-    padding: 0px 12px;
-}
-.card-img2 img{
-    height: inherit;
-}
-.cla h3
-{
-    color: black;
-    
-    font-size: 30px;
-    margin: 20px 30px;
-    text-decoration-line: underline;
-}
-.card-content2
-{
-    list-style: none;;
-    font-weight: bold;
-    font-size: 20px;
-    font-family:"'ZCOOL QingKe HuangYou', cursive;" ;
-}
-#sponsorsSection h2{
-    font-size: 30px;
+input{
+    border-radius: 32px;
+    border: 2px solid white;
+    margin: 15px 0px;
+    width: 40vw;
     padding: 20px;
-    text-align:center;
-}
-#footer{
-    background-color: black;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.pic{
-    height: 50px;
-    position: absolute;
-    left: 20px;
-    margin-top: 30px;
-    outline: none;
+    background-color: rgb(44, 34, 34);
     
 }
-.pic img{
-    height: inherit;
-    top: 20px;
-}
-.con h1,h3 {
+input::placeholder
+{
+    font-weight: bolder;
     color: white;
+    font-size: 3vim;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ttn{
+    margin: 22px 144px;
+    width: 119px;
+    border: 2px solidl black;
+    border-radius: 8px;
+    background-color: transparent;
+    z-index: 4;
+    color: white;
+    height: 38px;
+    font-size: 21px;
+    position: relative;
+
+
+}
+span{
+    width:0;
+    height: 100%;
+    background:coral;
+    position: absolute;
+    z-index: -1;
+    border-radius: 7px;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+.ttn:hover span{
+    /* animation-name: nam; */
+    width: 100%;
+    /* background-color:coral; */
+    cursor: pointer;
+
+}
+.ttn:hover{
+    border:none;
+}
+/* @keyframes nam {
+    0%{
+        background-color: none;
+    }
+    100%{
+        background-color: coral;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    
+} */
+footer{
+    background-color: black;
+    display: block;
+    margin: -40px 0px;
+}
+.tt h1{
+    /* display: block; */
+    text-align: center;
+    font-size: 5vmin;
+    /* margin: 10px 0px;
+     */
+     padding:20px;
+
 }
 
-.con
-{
-    margin: 100px;
-    margin-top: 30px;
+@media only screen and (max-width:850px){
+    body{
+        overflow: hidden;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .menu-btn
+    {
+        display: block;
+    }
+    .logo{
+        position: absolute;
+        top:30px;
+        left:20px;
+    }
+    .navlinks{
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        background-image: url("https://th.bing.com/th/id/R.e18dde5b623fb150283f512cf2bcc86f?rik=Fh30vduZIm6NEA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f1BdD4VK.jpg&ehk=%2bUVRsYG4fTB2NUj2DS5h%2be0%2bGRPyndfOkz4%2bcK%2bkoVE%3d&risl=&pid=ImgRaw&r=0");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -900px;
+        border-bottom-right-radius: 169px;
+        transition: all
+         1s ease-in-out  ;
+         position: relative;
+    
+        
+        
+    }
+    .navlinks li{
+        margin: 20px auto;
+    }
+    .navlinks li:hover{
+        border: 2px solid white;
+    }
+    .mobile{
+        position: absolute;
+        /* transition: all 5s ease-in-out  ; */
+        /* width: 0%; */
+        /* height: 0vh; */
+        /* display: none; */
+        margin-top: 0px;
+        
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .for {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont{
+        margin-top: 130px;
+    }
 }
