@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 header {
@@ -104,7 +105,7 @@ ul {
     right: 20px;
     width: 40px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -117,6 +118,7 @@ section {
 .event h1 {
     text-align: center;
     font-size: 7vmin;
+    color: black;
 }
 
 .line {
@@ -253,18 +255,6 @@ span {
 .ttn:hover {
     border: none;
 }
-
-/* @keyframes nam {
-    0%{
-        background-color: none;
-    }
-    100%{
-        background-color: coral;
-        color: whitesmoke;
-        font-weight: bold;
-    }
-    
-} */
 footer {
     background-color: black;
     display: block;
@@ -272,34 +262,26 @@ footer {
 }
 
 .tt h1 {
-    /* display: block; */
     text-align: center;
     font-size: 5vmin;
-    /* margin: 10px 0px;
-     */
     padding: 20px;
-
 }
 
-@media only screen and (max-width:850px) {
-    body {
+@media screen and (max-width:850px) {
+    .navbar,.cont {
         overflow: hidden;
     }
-
     .navbar {
         padding: 0;
     }
-
     .menu-btn {
         display: block;
     }
-
     .logo {
         position: absolute;
         top: 30px;
         left: 20px;
     }
-
     .navlinks {
         width: 100%;
         flex-direction: column;
@@ -313,11 +295,7 @@ footer {
         border-bottom-right-radius: 169px;
         transition: all 1s ease-in-out;
         position: relative;
-
-
-
     }
-
     .navlinks li {
         margin: 20px auto;
     }
@@ -325,29 +303,21 @@ footer {
     .navlinks li:hover {
         border: 2px solid white;
     }
-
     .mobile {
         position: absolute;
-        /* transition: all 5s ease-in-out  ; */
-        /* width: 0%; */
-        /* height: 0vh; */
-        /* display: none; */
         margin-top: 0px;
 
     }
-
     .row {
         display: flex;
         flex-direction: column;
     }
-
     .for {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     .cont {
         margin-top: 130px;
     }
