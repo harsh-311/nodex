@@ -204,6 +204,7 @@ input {
     border-radius: 32px;
     border: 2px solid white;
     margin: 15px 0px;
+    color: white;
     width: 40vw;
     padding: 20px;
     background-color: rgb(44, 34, 34);
@@ -274,6 +275,10 @@ footer {
     .navbar {
         padding: 0;
     }
+    .ctn{
+        width: 110px;
+        text-align: center;
+    }
     .menu-btn {
         display: block;
     }
@@ -281,6 +286,15 @@ footer {
         position: absolute;
         top: 30px;
         left: 20px;
+    }
+    .event .line{
+        background-color:black;
+    }
+    section .line{
+        background-color: #fff;
+    }
+    header .line{
+        background: white;
     }
     .navlinks {
         width: 100%;
@@ -298,6 +312,13 @@ footer {
     }
     .navlinks li {
         margin: 20px auto;
+    }
+    .col h3{
+        font-size: 24px;
+    }
+    .event h1
+    {
+        font-size: 39px;
     }
 
     .navlinks li:hover {
@@ -320,5 +341,8 @@ footer {
     }
     .cont {
         margin-top: 130px;
+    }
+    input{
+        width: 68vw;
     }
 }
