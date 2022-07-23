@@ -105,7 +105,7 @@ ul {
     right: 20px;
     width: 40px;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 
 }
 
@@ -268,9 +268,9 @@ footer {
 }
 
 @media screen and (max-width:850px) {
-    .navbar,.cont {
+    /* .navbar,.cont {
         overflow: hidden;
-    }
+    } */
     .navbar {
         padding: 0;
     }
